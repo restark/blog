@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*顶部图片*/
+.fenjin{
+  width: 100%;
+  height: 160px;
+  background: url(../source/image/最顶端banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 640px;
+  height: 117px;
+  background: url(../source/image/中国一带一路建设网.png) no-repeat center center;
+  float: left;
+  margin-top: 25px;
+}
+.titleNav{
+  width: 560px;
+  height: 100%;
+  float: right;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 530px;
+  height: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.titleBlue>li{
+  float: left;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 320px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+/*搜索框横栏*/
+.searchHeng{
+  width: 1200px;
+  height: 42px;
+  margin: 0px auto;
+}
+.search{
+  float: right;
+  width: 310px;
+  height: 26px;
+  margin-top: 5px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  color: #999;
+  background: url(../source/image/搜索.png) no-repeat left center;
+}
+.detialNav1{
+  float: left;
+  width: 350px;
+  height: 42px;
+  line-height: 42px;
+}
+.detialNav1>span>a{
+  font-size: 18px;
+  color: #999999;
+}
+.zhuangtai{
+  margin: 0px auto;
+  width: 1280px;
+  height: 200px;
+  margin-top: 40px;
+  background: url(../source/image/异常.jpg);
+}
+.urgentChuli{
+  margin: 0px auto;
+  width: 500px;
+  height: 60px;
+  background: url(../source/image/chuli1.png);
+  margin-top: 40px;
+  cursor: pointer;
+}
+.chuliDetial{
+  width: 1280px;
+  height: 890px;
+  margin: 0px auto;
+  background: url(../source/image/detial.jpg);
+  margin-top: 40px;
+}

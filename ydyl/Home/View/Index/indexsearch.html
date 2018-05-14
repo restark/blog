@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>一带一路产业大联盟</title>
+  <link rel="stylesheet" href="__PUBLIC__/source/libs/reset.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/indexsearch.css">
+  <script type="text/javascript" src="__PUBLIC__/source/libs/jquery.js"></script>
+  <script type="text/javascript" src="__PUBLIC__/js/indexsearch.js"></script>
+</head>
+<body>
+  <!-- 导航栏 -->
+  <include file='Common:daohang'/>
+  <!-- 一带一路建设网标题 -->
+  <include file='Common:denglu'/>
+  <!-- 蓝色横线 -->
+  <hr style=" height:2px;border:none;border-top:2px solid #007fdd;">
+  <!-- 主体 -->
+  <div class="mainWrap clear">
+    <!-- 左侧 -->
+    <div class="mainWrapLeft">
+      <!-- 搜索 -->
+      <div class="searchSearch clear">
+        <div class="inputSelect">
+          <input class="search" type="text">
+          <!-- <select name="" id="">
+            <option value="">全部类别</option>
+          </select> -->
+        </div>
+        <div class="searchButton"></div>
+      </div>
+      <!-- 搜索新闻详情 -->
+      <div class="searchNewDet">
+        <div class="searchWrap">
+          <!-- <div class="searchDetial">
+            <p class="searchDetialTitle">一定选最好的黄金地段，雇法国设计师，建就得建最高档次的公寓，电梯直接入户，户型最小怎么也得四百平米</p>
+            <div class="searchDetialWrap">
+              一定得选最好的黄金地段，雇法国设计师，建就得建最高档次的公寓！电梯直接入户，户型最小也得四百平米，什么宽带呀，光缆呀，卫星呀能给他接的全给他接上，楼上边有花园(儿)，楼里边有游泳池，楼子里站一个英国管家，戴假发，特绅士的那种，业主一进门(儿)，甭管有事(儿)没事，(儿)都得跟人家说may I help you sir(我能为您作点什么吗?)？一口地道的英国伦敦腔(儿)，倍(儿)有面子！社区里再建一所贵族学校，教材用哈佛的，一年光学费就得几万美金，再建一所美国诊所(儿)，二十四小时候诊，就是一个字(儿)贵，看感冒就得花个万八千的！
+            </div>
+            <div class="searchTime clear">
+              <span class="imgVideo">视频</span>
+              <span class="timeDate">2018-04-20 00:35:35</span>
+              <span class="timeTitle">/时间</span>
+              <span class="mokuai">时政新闻</span>
+            </div>
+          </div> -->
+        </div>
+        <p class="moreShow">显示更多</p>
+      </div>
+    </div>
+    <!-- 右侧 -->
+    <div class="mainNewRight">
+      <!-- 二级导航 -->
+      <div class="searchnewright">
+        <!-- <div class="secondNav">
+          <div class="secondTitle">国内新闻</div>
+          <div class="secondImg">
+            <div class="secondImgDes">
+              习近平将出席亚洲博鳌论坛开幕式
+            </div>
+          </div>
+          <ul class="secondNew">
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+            <li><a href="">一定得选最好的黄金地段，雇法国设计师</a></li>
+          </ul>
+        </div> -->
+      </div>
+      <!-- 广告 -->
+      <div class="smallAd">
+
+      </div>
+    </div>
+  </div>
+  <!-- 最下面备案表 -->
+  <div class="beian">
+    <div class="beianWrap">
+      <div class="beianOne">
+        <span class="zhidao">指导单位&nbsp;:&nbsp;人民日报社 中国报业协会</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="zhuban">主办单位&nbsp;:&nbsp;中国报业 中国金天北京网络科技中心</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="yunying">运营支持&nbsp;:&nbsp;北京沐宏宇企业策划中心</span>
+      </div>
+      <div class="beianTwo">
+        <span class="banquan">版权所有&nbsp;:&nbsp;中国金天国际集团 中国金天北京网络科技中心</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>法律顾问: 北京市连纵律师事务所</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>京ICP备14028561号-3</span>
+      </div>
+      <div class="erweima">
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+$(".search").keyup(function(event) {
+  if (event.keyCode == 13) {
+    var search = $(this).val();
+    if(search != ""){
+      console.log(search);
+      $.ajax({
+        url:"http://www.cupoftea.cn/Home/Index/searchnews",
+        data:{"keywords":search},
+        dataType:"json",
+        type:"post",
+        success:function (msg) {
+          console.log(msg);
+          var msg = JSON.stringify(msg);
+          localStorage.setItem("search",msg);
+          window.open("http://www.cupoftea.cn/Home/Index/indexsearch");
+        }
+      })
+    }
+  }
+})
+$(".searchButton").on("click",function () {
+  var search = $(".search").val();
+  if(search != ""){
+    console.log(search);
+    $.ajax({
+      url:"http://www.cupoftea.cn/Home/Index/searchnews",
+      data:{"keywords":search},
+      dataType:"json",
+      type:"post",
+      success:function (msg) {
+        console.log(msg);
+        var msg = JSON.stringify(msg);
+        localStorage.setItem("search",msg);
+        window.open("http://www.cupoftea.cn/Home/Index/indexsearch");
+      }
+    })
+  }
+})
+</script>

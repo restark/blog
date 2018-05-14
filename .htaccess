@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+
+
+
+</IfModule>
+
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(kingnova\.net)(:80)? [NC]
+RewriteRule ^(.*) http://www.kingnova.net/$1 [R=301,L]
+order deny,allow

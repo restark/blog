@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 640px;
+  height: 117px;
+  background: url(../../source/image/中国一带一路建设网.png) no-repeat left bottom;
+  float: left;
+  margin-top: 25px;
+}
+.titleNav{
+  width: 560px;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 100%;
+  height: 20px;
+  margin-top: 80px;
+}
+.titleBlue>li{
+  float: right;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  position: absolute;
+  right: 0px;
+  top: 110px;
+  width: 235px;
+  height: 30px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+/* 登录模块 */
+.login{
+  width: 1200px;
+  height: 722px;
+  margin: 0px auto;
+}
+.loginAd{
+  float:left;
+  width: 650px;
+  height: 400px;
+  margin-top: 144px;
+  margin-left: 35px;
+  background: #eee;
+}
+.denglu{
+  float: right;
+  width: 450px;
+  margin-top: 30px;
+}
+.denglup{
+  font-size: 40px;
+  color: #0080de;
+  border-left: 2px solid #0080de;
+}
+.denglu>input{
+  width: 440px;
+  height: 50px;
+  padding-left: 10px;
+  margin-top: 60px;
+  font-size: 20px;
+  color: #999;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+.tishi{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+.error{
+  float: left;
+  color: #fe0100;
+  font-size: 18px;
+  display: none;
+}
+.forget{
+  float:right;
+}
+.forget>a{
+  font-size: 20px;
+  color: #0080de;
+}
+.loginSure,.loginRegister{
+  width: 450px;
+  height: 50px;
+  line-height: 50px;
+  text-align:center;
+  background: #0080de;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.loginRegister{
+  background: #f19249;
+}
+.titleBlack>li>a{
+  font-size: 22px;
+  color: #666;
+}

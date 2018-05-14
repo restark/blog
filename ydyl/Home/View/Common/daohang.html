@@ -1,0 +1,107 @@
+<link rel="stylesheet" href="__PUBLIC__/source/libs/reset.css">
+<link rel="stylesheet" href="__PUBLIC__/css/daohang.css">
+<!-- 导航栏 -->
+<div class="daohang">
+  <ul class="daohangNav">
+    <li class="shouye bian"><a class="biana" href="http://www.cupoftea.cn">网站首页</a></li>
+    <li><a href="">时政新闻</a></li>
+    <li><a href="">政策环境</a></li>
+    <li><a href="">大数据云</a></li>
+    <li><a href="">智库建设</a></li>
+    <li><a href="">文化旅游</a></li>
+    <li><a href="">能源制造</a></li>
+    <li><a href="http://www.cupoftea.cn/Home/Index/logistics" target="_blank">物资大流通</a></li>
+    <li><a href="">金融资本</a></li>
+    <li><a href="">关于我们</a></li>
+    <li><a href="">人物专访</a></li>
+    <li><a href="">人工智能</a></li>
+    <li><a href="">健康医产</a></li>
+    <li><a href="">创新创业</a></li>
+    <li><a href="">绿色农业</a></li>
+    <li><a href="">国际合作</a></li>
+    <li><a href="">安全应急</a></li>
+    <li><a href="http://www.cupoftea.cn/index/chanye.html" target="_blank">产业大联盟</a></li>
+    <li><a href="https://www.ipr99.com/" target="_blank">知识产权</a></li>
+    <div class="more">+更多</div>
+  </ul>
+</div>
+<script type="text/javascript">
+  // $.ajax({
+  //   url:"{:U('Home/Index/type')}",
+  //   success:function (msg) {
+  //     var msg = JSON.parse(msg);
+  //     console.log(msg);
+  //     if(msg.length<1){
+  //       for(var data of msg){
+  //         var li = $('<li oneid='+ data.id +'><a href="">'+ data.name +'</a></li>').insertAfter($(".shouye"));
+  //       }
+  //     }else {
+  //       var msg1 = msg.slice(0,17);
+  //       var msg2 = msg.slice(18);
+  //       for(var data of msg1){
+  //         var li = $('<li oneid='+ data.id +'><a href="">'+ data.name +'</a></li>').insertAfter($(".shouye"));
+  //       }
+  //       var i=0;
+  //       $(".more").on("click",function(){
+  //         if(i==0){
+  //           for(var data of msg2){
+  //             var li = $('<li class="del" oneid='+ data.id +'><a href="">'+ data.name +'</a></li>').appendTo($(".daohangNav"));
+  //           }
+  //           i=1;
+  //         }else{
+  //           $(".del").remove();
+  //           i=0;
+  //         }
+  //       });
+  //     }
+  //
+  //   }
+  // })
+
+
+
+      // 请求一级类别数据
+      $.ajax({
+        url:"http://www.cupoftea.cn/Home/Index/type",
+        success:function (msg) {
+          var msg = JSON.parse(msg);
+          console.log(msg);
+          // var erji = $(".daohangNav>li>a").each(function () {
+          //   // for(var msg1 of msg){
+          //   for(var i=0; i<msg.length; i++){
+          //     if(msg[i].name == "知识产权" || msg[i].name == "产业大联盟" || msg[i].name == "物资大流通"){
+          //
+          //     }else{
+          //       if($(this).text() == msg[i].name){
+          //         $(this).attr({
+          //           "href":"http://www.cupoftea.cn/Index/indextwo#"+ msg[i].name +"?"+ msg[i].id +"",
+          //           "target":"_blank"
+          //         });
+          //       }
+          //     }
+          //   }
+          // })
+          var erji = $(".daohangNav>li>a");
+          for(var i=0; i<erji.length; i++){
+            for(var j=0; j<msg.length; j++){
+              if(msg[j].name == "知识产权" || msg[j].name == "产业大联盟" || msg[j].name == "物资大流通"){
+
+              }else{
+                if($(erji[i]).text() == msg[j].name){
+                  $(erji[i]).attr({
+                    "href":"http://www.cupoftea.cn/Index/indextwo#"+ msg[j].name +"?"+ msg[j].id +"",
+                    "target":"_blank"
+                  });
+                }
+              }
+            }
+          }
+        }
+      })
+      // 导航栏选中状态
+      // $(".daohangNav>li").on("click",function () {
+      //   $(this).addClass('bian').siblings().removeClass("bian");
+      //   $(this).children().addClass("biana");
+      //   $(this).siblings().children().removeClass("biana");
+      // })
+</script>

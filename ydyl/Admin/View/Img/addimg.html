@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>一带一路后台管理</title>
+		<meta name="keywords" content="一带一路后台管理" />
+		<meta name="description" content="一带一路后台管理" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+		<!-- 选择上传图片 -->
+		<!-- bootstrap.css前边已经引用过 -->
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/main.css?v=0.04" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/cropper.css?v=0.02">
+
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<script type="text/javascript">
+        	window.UEDITOR_HOME_URL='__ROOT__/Data/ueditor/';
+        	window.onload=function(){
+            	window.UEDITOR_CONFIG.initialFrameHeight=600;
+            	UE.getEditor('content');
+        	}
+     	</script>
+
+	</head>
+	<body>
+
+	<!-- 加载编辑器的容器 -->
+    <script id="container" name="content" type="text/plain">
+        这里写你的初始化内容
+    </script>
+
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.all.js"></script>
+		<include file='Common:head'/>
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+				<include file='Common:left'/>
+				<!-- 11111 -->
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">ydyl后台</a>
+							</li>
+
+							<li>
+								<a href="#">图片管理</a>
+							</li>
+							<li class="active">添加图片</li>
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+							 	<div class="content col-md-12 col-sm-12">
+						            <div class="panel panel-primary">
+						                <div class="panel-heading">
+						                    <h3 class="panel-title">添加图片</h3>
+						                </div>
+							            <div class="table-responsive">
+							             	<div class="container-fluid">
+											    <div class="row-fluid">
+											        <div class="span12">
+											        <!-- 之前的表单 -->
+											            <form calss="submit-all" action="{:U('Admin/Img/doadd')}" method="post" enctype="multipart/form-data">
+												            <table class="table table-hover">
+												                <tbody>
+												                   
+
+												                    <tr class="news_header" >
+												                        <td align=right>标题：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="title" >
+												                        </td>
+												                    </tr>
+												                    <tr class="news_header" >
+												                        <td align=right>发布人姓名：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="editorname" >
+												                        </td>
+												                    </tr>
+												                    <tr class="news_header" >
+												                        <td align=right>图片来源：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="comefrom" >
+												                        </td>
+												                    </tr>
+																						<tr class="news_people" >
+												                        <td align=right>图片：</td>
+												                        <td>
+   																		 	<input name="photo[]" type="file"  />
+												                        </td>
+												                    </tr>
+																						<!-- 单选框及位置 -->
+																			
+											                    	<tr class="danger">
+												                        <td colspan="2" align="center">
+												                        	<input  type="submit" id="mm" class="btn btn-primary btn-lg" value="上传图片" />
+												                        </td>
+												                    </tr>
+												                </tbody>
+												            </table>
+												        </form>
+											        </div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+				<!-- 11111 -->
+
+			<!-- eeeeee -->
+			
+			<!-- eeeeee -->
+				<include file='Common:right'/>
+
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		<script src="__PUBLIC__/assets/js/jquery-2.0.3.min.js"></script>
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+		<script type="text/javascript">
+ 			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+		</script>
+		<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+		<!-- page specific plugin scripts -->
+		<!-- ace scripts -->
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+		<script>
+			$(function(){
+				$('.nav-list>li').eq(2).addClass('open');
+				$('.nav-list>li').eq(2).addClass('active');
+				$('.nav-list>li>.submenu').eq(2).slideDown();
+
+				$('.close-canvas').click(function () {
+					$('#my-canvas').hide();
+				});
+				$('.bb').click(function () {
+					$('#my-canvas').show();
+				});
+				$('.yesnot').on("click",function () {
+					var yesnot = $('.yesnot').prop('checked');
+					console.log(yesnot);
+					if(yesnot == true){
+						$("#video").css("visibility","visible");
+					}else{
+						$("#video").css("visibility","hidden").attr("disabled","disabled");
+					}
+				})
+
+				$('#mm').click(function(){
+					//alert(1);
+					if($('#firstSelect').val()==""){
+						alert("请输入所属一级类别");
+						return false;
+					}else if($('#secondSelect').val()==""){
+						alert("请输入所属二级类别");
+						return false;
+					}else if($('.news_header input').val()==""){
+						alert("请输入标题");
+						return false;
+					}
+					else if($('.news_people input').val()==""){
+						alert("请上传图片");
+						return false;
+					}else if($('.news_content textarea').val()==""){
+						alert("请输入内容");
+						return false;
+					}else if ($('.yesnot').prop('checked') == true) {
+						if($('#videoWeizhi').val()==""){
+							alert("请选择视频位置");
+							return false;
+						}else if($(".news_video input").val()==""){
+							alert("请上传视频");
+							return false;
+						}
+					}
+					// 组装数据
+					// var data = $('.btn-lg').attr('imgid');
+					// $.ajax({
+					// 	url: '/Admin/News/addnew',
+					// 	type: 'post',
+				 //        data: data,
+				 //        dataType: 'json',
+				 //        success: function (data) {
+				 //        	console.log(data);
+				 //        }
+					// });
+				})
+			})
+		</script>
+		<!-- inline scripts related to this page -->
+
+	<!-- 裁剪图片的js加载 -->
+  	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+  	<script src="__PUBLIC__/assets/js/cropper.js"></script>
+  	<script src="__PUBLIC__/assets/js/main.js?v=0.02"></script>
+  	<!-- <script src="__PUBLIC__/assets/js/myCrop.js"></script> -->
+	<script type="text/javascript">
+		$.ajax({
+			url:"{:U('Admin/News/type')}",
+			success:function (msg) {
+				var msg = JSON.parse(msg);
+				console.log(msg);
+				var firstSelect = $("#firstSelect");
+				var secondSelect = $("#secondSelect");
+				for(var first of msg){
+					var option1 = $("<option value="+ first.id +"></option>");
+					option1.html(first.name);
+					firstSelect.append(option1);
+				}
+				firstSelect.on("change",function () {
+					var firstVal = firstSelect.val();
+					for(var first of msg){
+						console.log(first);
+						if(firstVal == first.id){
+							secondSelect.empty();
+							for(var second of first.next){
+                var option3 = $("<option value="+ second.id +"></option>");
+                option3.html(second.name);
+                secondSelect.append(option3);
+              }
+						}
+					}
+				})
+			}
+		})
+
+	</script>
+
+</body>
+</html>

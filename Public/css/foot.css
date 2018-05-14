@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 最下面备案部分 */
+.beian{
+  width: 100%;
+  height: 190px;
+  background: #014b83;
+}
+.beianWrap{
+  width: 1200px;
+  height: 190px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+.beianOne{
+  float: left;
+  margin-top: 74px;
+}
+.beianTwo{
+  float: left;
+  margin-top: 15px;
+}
+.erweima{
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  background: #eee;
+  margin-top: -30px;
+}

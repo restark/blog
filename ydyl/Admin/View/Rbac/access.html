@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>金诺华后台管理 - 权限管理</title>
+		<meta name="keywords" content="金诺华后台管理- 权限管理" />
+		<meta name="description" content="金诺华后台管理- 权限管理" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="__PUBLIC__/assets/js/html5shiv.js"></script>
+		<script src="__PUBLIC__/assets/js/respond.min.js"></script>
+		<![endif]-->
+
+
+
+	</head>
+
+	<body>
+		<include file='Common:head'/>
+		<!--<?php include("include/head.php");  ?>-->
+
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+				
+				<include file='Common:left'/>
+				<!--<?php include("include/left.php");  ?>-->
+				
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="/">后台首页</a>
+							</li>
+
+							<li>
+								<a href="#">RBAC</a>
+							</li>
+							<li class="active">权限设置</li>
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+
+
+
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="content col-md-12 col-sm-12">
+									<div class="content col-md-12 col-sm-12">
+										<div class="">
+											<div class="container-fluid">											
+											    <div class="alert alert-info" role="alert">
+											    	<center>
+														<a href="{:U("Admin/Rbac/Role")}" class="btn btn-info btn-lg">返回</a><p>
+													</center>
+												</div>
+											
+												<form action="{:U('Admin/Rbac/setAccess')}" method="post">
+<foreach name='node' item='app'>
+    <div class="app">
+    <div class="container"><div class="container-fluid">
+         <div class="panel  panel-primary ">
+  <div class="panel-body">
+         	<p >
+         		<b><strong><font size=1000>{$app.title}</font></strong></b>
+      <input level='1' type="checkbox" name='access[]' value='{$app.id}_1' <if condition='$app["access"]'>checked='checked' </if>/>
+         	</p>
+
+                 <foreach name='app.child' item='action'>
+
+                    <div class="panel panel-info">
+                    <dl>
+                       <dt><strong><font size=5>{$action.title}</font></strong>
+                       <input level='2' type="checkbox" name='access[]' value='{$action.id}_2' <if condition='$action["access"]'>checked='checked' </if>>
+                       </dt><div class="alert alert-warning" role="alert">
+                     <foreach name='action.child' item='method'>
+               
+                        
+                            <span>{$method.title}</span>
+                            <input  level='3' type="checkbox" name='access[]' value='{$method.id}_3' <if condition='$method["access"]'>checked='checked' </if>>
+                               &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                        
+                   
+                     </foreach> </div>
+                    </dl>
+                </div>
+                 </foreach>
+         </div>
+          </div>
+</div></div></div>
+
+</foreach><div class="alert alert-info" role="alert">
+
+
+<center>
+    <input type="hidden" name="rid" value='{$rid}'>
+    <input type="submit" value="保存修改" class="btn btn-danger btn-lg"></center></div>
+</form>
+											</form>
+											
+										</div>
+									</div>																				
+								</div>
+							
+																															
+								</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+				
+				
+				<include file='Common:right'/>
+				<!--<?php include("include/right.php");  ?>-->
+				
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<!--<script src="__PUBLIC__/assets/js/jquery-2.0.3.min.js"></script>-->
+		<script src="__PUBLIC__/assets/js/jquery-1.7.2.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<!--<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>-->
+		
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.7.2.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			//alert(1)
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+			
+			$(function(){
+
+		            $('input[level=1]').click(function(){
+		            	//alert(0)
+		            	
+		                var inputs =$(this).parent().siblings('.panel').find('input');
+		                //alert(inputs.length)
+						$(this).attr('checked')?inputs.attr('checked','checked'):inputs.removeAttr('checked');
+		            });
+		
+		            $('input[level=2]').click(function(){ 
+		            	//alert(1)
+		          		var inputs =$(this).parent().siblings('.alert').find('input');
+		          		//alert(inputs.length)
+						$(this).attr('checked')?inputs.attr('checked','checked'):inputs.removeAttr('checked');
+		            });
+		            
+		          
+					// $('.nav-list>li').eq(0).addClass('open');
+					// $('.nav-list>li').eq(0).addClass('active');
+					// $('.nav-list>li>.submenu').eq(0).slideDown();
+
+					$('.nav-list>li').eq(1).addClass('open');
+					$('.nav-list>li').eq(1).addClass('active');
+					$('.nav-list>li>.submenu').eq(1).slideDown();
+					
+		
+		    });
+
+
+		</script>
+		
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+
+		
+</body>
+</html>

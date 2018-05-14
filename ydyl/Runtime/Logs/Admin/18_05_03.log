@@ -1,0 +1,2587 @@
+[ 2018-05-03T00:08:39+08:00 ] 221.217.236.155 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-05-03T00:08:39+08:00 ] 221.217.236.155 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-05-03T00:08:39+08:00 ] 221.217.236.155 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-05-03T00:08:57+08:00 ] 221.217.236.155 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `news_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_admin` WHERE `username` = 'admin' AND `password` = '1a145a23d6e47aadfe2063f1f951e691'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-05-03T00:08:58+08:00 ] 221.217.236.155 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 90 行.
+NOTIC: [8] Undefined index: REMOTE_HOST /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 395 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-05-03T00:09:03+08:00 ] 221.217.236.155 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_news` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-05-03T00:09:03+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-05-03T00:10:42+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-05-03T00:10:42+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-05-03T00:10:44+08:00 ] 221.217.236.155 /Admin/Img/delimg/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: DELETE FROM `news_allimg` WHERE `id` = 5 [ RunTime:0.0162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2018-05-03T00:10:45+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2018-05-03T00:10:45+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-05-03T00:10:46+08:00 ] 221.217.236.155 /Admin/Img/delimg/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: DELETE FROM `news_allimg` WHERE `id` = 4 [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-05-03T00:10:47+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-05-03T00:10:47+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-05-03T00:10:48+08:00 ] 221.217.236.155 /Admin/Img/delimg/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: DELETE FROM `news_allimg` WHERE `id` = 3 [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-05-03T00:10:49+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-05-03T00:10:49+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-05-03T00:10:50+08:00 ] 221.217.236.155 /Admin/Img/delimg/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: DELETE FROM `news_allimg` WHERE `id` = 2 [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-05-03T00:10:51+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-05-03T00:10:51+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-05-03T00:10:51+08:00 ] 221.217.236.155 /Admin/Img/delimg/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: DELETE FROM `news_allimg` WHERE `id` = 1 [ RunTime:0.0274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2018-05-03T00:10:52+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-05-03T00:10:52+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-05-03T00:10:55+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-05-03T00:10:55+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-05-03T00:10:57+08:00 ] 221.217.236.155 /Admin/Img/addimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-05-03T00:10:58+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-05-03T00:17:48+08:00 ] 221.217.236.155 /Admin/Img/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: INSERT INTO `news_allimg` (`title`,`editorname`,`comefrom`,`intime`,`himg`) VALUES ('1','编辑','官网','1525277868','/Uploads/2018-05-03/5ae9e4aca5a86.jpg') [ RunTime:0.0201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-05-03T00:17:49+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-05-03T00:17:50+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-05-03T00:18:25+08:00 ] 221.217.236.155 /Admin/Img/addimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2018-05-03T00:18:25+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-05-03T00:18:35+08:00 ] 221.217.236.155 /Admin/Img/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: INSERT INTO `news_allimg` (`title`,`editorname`,`comefrom`,`intime`,`himg`) VALUES ('2','2','2','1525277915','/Uploads/2018-05-03/5ae9e4dba9a76.jpg') [ RunTime:0.0234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2018-05-03T00:18:36+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2018-05-03T00:18:36+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-05-03T00:18:39+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-05-03T00:18:39+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011410s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-05-03T00:18:41+08:00 ] 221.217.236.155 /Admin/Img/addimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2018-05-03T00:18:41+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-05-03T00:18:48+08:00 ] 221.217.236.155 /Admin/Img/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0005s ]
+SQL: INSERT INTO `news_allimg` (`title`,`editorname`,`comefrom`,`intime`,`himg`) VALUES ('3','3','3','1525277928','/Uploads/2018-05-03/5ae9e4e84de87.jpg') [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-05-03T00:18:49+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-05-03T00:18:49+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0103s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2018-05-03T00:18:52+08:00 ] 221.217.236.155 /Admin/Img/addimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2018-05-03T00:18:52+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2018-05-03T00:18:59+08:00 ] 221.217.236.155 /Admin/Img/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: INSERT INTO `news_allimg` (`title`,`editorname`,`comefrom`,`intime`,`himg`) VALUES ('4','4','4','1525277939','/Uploads/2018-05-03/5ae9e4f392f0a.jpg') [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2018-05-03T00:19:00+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-05-03T00:19:00+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2018-05-03T00:19:02+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-05-03T00:19:02+08:00 ] 221.217.236.155 /Admin/Img/addimg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/15666eca025d41fb283fdaaec3aa757b.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-05-03T00:19:08+08:00 ] 221.217.236.155 /Admin/Img/doadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0004s ]
+SQL: INSERT INTO `news_allimg` (`title`,`editorname`,`comefrom`,`intime`,`himg`) VALUES ('5','5','5','1525277948','/Uploads/2018-05-03/5ae9e4fc5c0fb.jpg') [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-05-03T00:19:09+08:00 ] 221.217.236.155 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-05-03T00:19:10+08:00 ] 221.217.236.155 /Admin/Img/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `news_allimg` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_allimg` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `news_allimg` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 90 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 340 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/aa94104fea7bc7775bd4a0b90963035f.php 第 347 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2018-05-03T13:10:43+08:00 ] 221.216.122.159 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-05-03T13:10:45+08:00 ] 221.216.122.159 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-05-03T13:10:52+08:00 ] 221.216.122.159 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+
+[ 2018-05-03T13:11:00+08:00 ] 221.216.122.159 /Admin/Login/verify.html?0.2465766424874729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-05-03T13:11:06+08:00 ] 221.216.122.159 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `news_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_admin` WHERE `username` = 'admin' AND `password` = '1a145a23d6e47aadfe2063f1f951e691'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2018-05-03T13:11:07+08:00 ] 221.216.122.159 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 90 行.
+NOTIC: [8] Undefined index: REMOTE_HOST /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/d3b702bf72ed230e8c20adf6e3c65fe7.php 第 395 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-05-03T13:11:10+08:00 ] 221.216.122.159 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_news` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-05-03T13:11:10+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-05-03T13:11:13+08:00 ] 221.216.122.159 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 86 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-05-03T13:11:13+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-05-03T13:11:16+08:00 ] 221.216.122.159 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_news` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-05-03T13:11:16+08:00 ] 221.216.122.159 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_news` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-05-03T13:11:17+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2018-05-03T13:11:22+08:00 ] 221.216.122.159 /Admin/News/index?onetype=10&twotype=49&%E7%AD%9B%E9%80%89=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE `onetype` = 10 AND `twotype` = 49 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_news` WHERE `onetype` = 10 AND `twotype` = 49 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2018-05-03T13:11:22+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-05-03T13:12:00+08:00 ] 140.207.54.197 /Admin/Login/verify.html?0.2465766424874729
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-05-03T13:12:10+08:00 ] 140.207.128.158 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2018-05-03T13:12:10+08:00 ] 61.129.6.74 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-05-03T13:12:10+08:00 ] 140.207.128.158 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-05-03T13:12:11+08:00 ] 61.129.6.74 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-05-03T13:12:13+08:00 ] 140.207.128.217 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-05-03T13:12:13+08:00 ] 140.207.128.217 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-05-03T13:15:44+08:00 ] 221.216.122.159 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 86 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2018-05-03T13:15:44+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-05-03T13:16:35+08:00 ] 221.216.122.159 /Admin/News/addnew.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/blog/ydyl/Admin/Controller/NewsController.class.php 第 164 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/blog/ydyl/Admin/Controller/NewsController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: INSERT INTO `news_news` (`title`,`message`,`editorname`,`comefrom`,`onetype`,`twotype`,`isleft`,`isvideo`,`intime`,`isdel`,`himg`,`videopath`) VALUES ('“五一”小长假，北京及周边地区迎来赏花高峰 ——各景点引导游客文明出行、北京地区加强安全监管','&lt;p&gt;&lt;span style=&quot;;font-family:宋体&quot;&gt;“五一”小长假，北京及周边地区迎来赏花高峰&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;——各景点引导游客文明出行、北京地区加强安全监管&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;刚刚结束的五一小长假，全国各地劳动人民陆续回到工作岗位。综合通讯运营商、线上旅行服务商和各地旅游部门数据，经中国旅游研究院综合测算，“五一”假日全国共接待国内游客1.47亿人次，同比增长9.3%，实现国内旅游收入871.6亿元，同比增长10.2%。国内来京旅游人数186万人次，同比增长4.2%。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;北京市假日办透露，五一小长假期间，全市接待旅游总人数465万人次，同比增长3.7%。全市实现旅游总收入48.4亿元，同比增长5.7%。据市公园管理中心透露，市属11家公园及中国园林博物馆共接待游客量突破192万人次，其中颐和园、北京动物园、北海、天坛、景山等公园的游客量最多。&lt;/span&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;总体来看，今年的“五一”假日北京旅游市场运行平稳，旅游人数和旅游消费实现同步增长。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;“&lt;/span&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;五一”假日出行，游客来京赏花。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;据统计，节假日期间北京玉渊潭、元大都遗址公园、北京植物园、北京地铁S2线、房山长沟镇、天坛公园、庞各庄万亩梨园、颐和园、大觉寺、潭拓寺、中山公园等赏花景点陆续迎来花期，赏花人数持续增长。京郊踏青，公园赏景，北京市民与来京游客共赏美好春光。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;保护绿色生态，游客文明出行。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;“&lt;/span&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;五一”假期期间，北京各景点对游客文明出行进行合理引导，北京故宫、颐和园等景点在旅游景区、咨询服务点投放文明旅游宣传手册，引导游客文明出行；在游客服务中心、景区人员集聚区等志愿者服务站，为游客提供旅游咨询、文明引导等服务，让文明出行理念深入人心。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;保护游客出行，北京地区加强安全监管。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;“&lt;/span&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;五一”期间，文化和旅游部及各地旅游部门创新监管机制,实施专项市场整治行动，打造高质量的假日旅游经营和消费环境。北京累计检查旅游企业278家次，检查旅游车辆162车次，检查旅游团队191个，检查导游202人次，查处各类旅游违法违规行为73起，查扣非法一日游小广告1300余份，旅游接待状况良好。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;文化和旅游部办公厅相关负责人尚生龙表示，大众旅游时代，全域旅游成为国家战略，旅游业从单一景点景区模式向综合目的地统筹发展模式纵深转变。在这个背景下，假日旅游市场规模越来越大、发展空间越来越广阔、结构越来越复杂、影响也越来越深远，这就更需要加强假日旅游的组织管理、服务保障工作，促进假日旅游工作制度化、规范化、科学化和精细化，建立适应全域旅游时代的假日管理保障体系，确保实现全国假日旅游市场“安全、有序、优质、高效、文明”目标。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','003','原创','10','49','0','0','1525324595','0','/Uploads/2018-05-03/5aea9b33d175a.jpg','/Uploads/') [ RunTime:0.0325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-05-03T13:16:37+08:00 ] 221.216.122.159 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 86 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-05-03T13:16:37+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2018-05-03T13:17:25+08:00 ] 221.216.122.159 /Admin/News/addnew.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/wwwroot/blog/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/blog/ydyl/Admin/Controller/NewsController.class.php 第 164 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/blog/ydyl/Admin/Controller/NewsController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: INSERT INTO `news_news` (`title`,`message`,`editorname`,`comefrom`,`onetype`,`twotype`,`isleft`,`isvideo`,`intime`,`isdel`,`himg`,`videopath`) VALUES ('全方位满足游客需求，五一假期全域旅游再发力','&lt;p&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;全方位满足游客需求，五一假期全域旅游再发力&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-right: 14px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;今年的五一小长假，出游旅客人数依旧火爆。据中央气象台统计，今年“五一”期间，我国大部分地区气温适宜，无大范围强降雨、降温和严重雾霾天气，气象条件适宜外出活动。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;2018&lt;/span&gt;&lt;span style=&quot;font-family: 宋体;background:white&quot;&gt;年3月，国务院办公厅印发《关于促进全域旅游发展的指导意见》，就加快推动旅游业转型升级、提质增效，全面优化旅游发展环境，走全域旅游发展的新路子做出部署。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;中国进入全域旅游年。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;今年的五一假期在政策支持之下就全域旅游再度发力。&lt;span style=&quot;background:white&quot;&gt;综合通讯运营商、线上旅行服务商和各地旅游部门数据，经中国旅游研究院综合测算，“五一”假日全国共接待国内游客1.47亿人次，同比增长9.3%，实现国内旅游收入871.6亿元，同比增长10.2%。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;党中央、国务院高度重视旅游业发展。今年的政府工作报告中明确提出，要“完善旅游设施和服务，大力发展乡村、休闲、全域旅游。”&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;“&lt;/span&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;五一”假日期间，各地旅游的发展态势——从景点旅游模式走向全域旅游模式——得到了一次集中而全面的诠释。国家旅游局强力推动的“以全域旅游理念，推进落实旅游供给侧改革，积极增加产品供给”的全域旅游供给措施取得了明显的成效。以往景区型产品一家独大逐渐被多样化的目的地产品所取代，园区型产品异军突起，各种新业态产品全面开花，乡村旅游、城市周边游、古城古镇游等产品持续火爆。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;假日期间，各地的度假区、博物馆、动物园、植物园人流如织，各种实景演出座无虚席，旅游产品供给的极大丰富，恰恰对接了人们广泛多元的旅游需求，释放了巨大消费潜力。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体;background:white&quot;&gt;国家旅游局有关负责人表示，“五一”假日旅游市场的火爆，充分显示了假日旅游市场旺盛的消费潜力，显示了党中央国务院领导下中国旅游强劲的发展势头以及旅游业带来的巨大的经济效益和社会效益。未来，全国旅游行业将坚持全域旅游发展理念，进一步加强假期旅游消费特征和供求平衡机制研究，加大创新性旅游产品供给力度，进一步提高假日旅游应急保障能力，提升人民群众幸福感和获得感。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 28px;line-height: 33px&quot;&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;五一小长假结束了，全国各地旅客陆续回到工作、学习岗位，负责人表示，希望大家能在假期结束后，以更加饱满的姿态展示中国的强壮生命力。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family:宋体&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','003','原创','10','49','0','0','1525324645','0','/Uploads/2018-05-03/5aea9b6549ca9.jpg','/Uploads/') [ RunTime:0.0263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-05-03T13:17:26+08:00 ] 221.216.122.159 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 66 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 75 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 86 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/52a1ca446a8a4a712935178c3b252c68.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-05-03T13:17:26+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2018-05-03T13:17:31+08:00 ] 221.216.122.159 /Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_news` WHERE ( 1=1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-05-03T13:17:31+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-05-03T13:17:38+08:00 ] 221.216.122.159 /Admin/News/index?onetype=10&twotype=49&%E7%AD%9B%E9%80%89=%E6%8F%90%E4%BA%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `news_news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news_news` WHERE `onetype` = 10 AND `twotype` = 49 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_news` WHERE `onetype` = 10 AND `twotype` = 49 ORDER BY id desc LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: logintime /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 70 行.
+NOTIC: [8] Undefined index: loginip /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 79 行.
+NOTIC: [8] Undefined index: username /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 90 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 314 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+NOTIC: [8] Undefined index: status /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 357 行.
+NOTIC: [8] Undefined variable: type /home/wwwroot/blog/ydyl/Runtime/Cache/Admin/51c9d9e69a17f360f9b5c6d4a3de2bf8.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-05-03T13:17:38+08:00 ] 221.216.122.159 /Admin/News/type.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `news_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `news_nexttype` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 1  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 2  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 9  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 11  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 12  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 14  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 15  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 16  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 19  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 23  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 25  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news_nexttype` WHERE `sid` = 27  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-05-03T13:18:38+08:00 ] 140.207.128.217 /Admin/News/index?onetype=10&twotype=49&?-?��??=????o��
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+
+[ 2018-05-03T14:16:56+08:00 ] 120.92.11.91 /Admin/News/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2018-05-03T14:16:57+08:00 ] 120.92.11.205 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-05-03T14:16:57+08:00 ] 120.92.11.147 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+

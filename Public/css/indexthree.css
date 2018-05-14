@@ -1,0 +1,352 @@
+@charset "UTF-8";
+.daohang{
+  width: 100%;
+  min-height: 90px;
+  background: #0080de;
+}
+.daohangNav{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+}
+.daohangNav>li{
+  float: left;
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #0080de;
+}
+.daohangNav>li:hover{
+  border-bottom: 2px solid #fff;
+}
+.daohangNav>li>a{
+  color: #fff;
+  font-size: 17px;
+}
+.daohangNav>.more{
+  float:left;
+  width: 70px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 640px;
+  height: 117px;
+  background: url(../source/image/中国一带一路建设网.png);
+  float: left;
+  margin-top: 25px;
+}
+.titleNav{
+  width: 560px;
+  height: 100%;
+  float: right;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 530px;
+  height: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.titleBlue>li{
+  float: left;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 320px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+/* 搜索框横栏 */
+.newSearch{
+  width: 1200px;
+  height: 40px;
+  margin: 10px auto;
+}
+.newSearch>span{
+  float: left;
+  font-size: 18px;
+  color: #999;
+}
+.newSearch>span>a{
+  font-size: 18px;
+  color: #999;
+}
+.search{
+  float: right;
+  width: 310px;
+  height: 26px;
+  margin-top: 5px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  color: #999;
+  background: url(../source/image/搜索.png) no-repeat left center;
+}
+/* 大黑标题 */
+.titleSource{
+  width: 1200px;
+  height: 220px;
+  margin: 0px auto;
+  border-bottom: 1px solid #d2d2d2;
+  position: relative;
+}
+.blackTitle{
+  width: 860px;
+  line-height: 50px;
+  margin: 40px auto;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+}
+.dateTime{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
+.dateTime>span{
+  float: left;
+  font-size: 16px;
+  color: #999;
+}
+.from{
+  margin-left: 30px;
+}
+.from1{
+  margin-left: 5px;
+}
+.titleshare{
+  float: right;
+  width: 16px;
+  height: 16px;
+}
+/* 黑标题下部 */
+.newMain{
+  width: 1200px;
+  margin: 0px auto;
+}
+.newMainleft{
+  width: 710px;
+  float: left;
+}
+.newDetial{
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 50px;
+}
+/* 详细新闻 */
+.newsImg{
+  width: 710px;
+  height: 370px;
+  background: #eee;
+  margin-top: 24px;
+}
+.contentWrap{
+  font-size: 20px;
+  color: #666;
+  line-height: 32px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+/* 相关新闻部分 */
+.moreNew{
+  width: 100%;
+}
+.nearnew{
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  font-size: 36px;
+  color: #0080de;
+  border-bottom: 2px solid #0080de;
+}
+.singleNew{
+  width: 100%;
+  height: 230px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-top: 20px;
+}
+.singleNew>p{
+  height: 70px;
+  font-size: 24px;
+  color: #333;
+}
+.singleNewBottom{
+  width: 100%;
+  height: 130px;
+  margin-top: 20px;
+}
+.singleNewBottomImg{
+  float: left;
+  width: 210px;
+  height: 130px;
+  background: url(../source/image/默认图.jpg);
+}
+.singleNewBottomDes{
+  width: 480px;
+  height: 130px;
+  float: right;
+}
+.singleNewBottomDes>p{
+  width: 100%;
+  height: 80px;
+  line-height: 26px;
+  color: #666;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.newTime{
+  width: 100%;
+  height: 24px;
+  margin-top: 30px;
+}
+.time{
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+.share{
+  float: right;
+  width: 24px;
+  height: 24px;
+  background: url(../source/image/分享.png);
+}
+.moreShow{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #007fde;
+  cursor: pointer;
+}
+/* 大黑标题下面右侧 */
+.newMainright{
+  width: 450px;
+  float: right;
+}
+.secondNav{
+  width: 100%;
+  height: 605px;
+  margin-top: 50px;
+}
+.secondNav:first-child{
+  margin-top: 10px;
+}
+.secondTitle{
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #0081de;
+  font-size: 26px;
+  color: #0081e1;
+  line-height: 45px;
+}
+.secondImg{
+  width: 450px;
+  height: 280px;
+  background: #eee;
+  margin-top: 26px;
+  overflow:hidden;
+}
+.secondImgDes{
+  width: 410px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(0,146,255,0.8);
+  margin-top: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.secondNew{
+  width: 100%;
+  height: 240px;
+  margin-top: 24px;
+}
+.secondNew>li{
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  list-style: disc;
+  list-style-position: inside;
+}
+.secondNew>li>a{
+  font-size: 18px;
+  color: #666;
+}
+/* 广告位 */
+.smallAd{
+  width: 100%;
+  height: 180px;
+  background: #eee;
+  margin-top: 60px;
+}
+/* 最下面备案部分 */
+.beian{
+  width: 100%;
+  height: 190px;
+  background: #014b83;
+}
+.beianWrap{
+  width: 1200px;
+  height: 190px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+.beianOne{
+  margin-top: 74px;
+}
+.beianTwo{
+  margin-top: 15px;
+}
+.erweima{
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  background: #eee;
+  margin-top: -60px;
+}

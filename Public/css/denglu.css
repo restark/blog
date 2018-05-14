@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 642px;
+  height: 101px;
+  background: url(../source/image/中国一带一路建设网.png) no-repeat center center;
+  float: left;
+  margin-top: 40px;
+}
+.titleNav{
+  width: 556px;
+  height: 100%;
+  float: right;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 530px;
+  height: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.titleBlue>li{
+  float: left;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 335px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+.titleBlack>li>a{
+  font-size: 22px;
+  color: #666;
+}

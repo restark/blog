@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/*顶部图片*/
+.fenjin{
+  width: 100%;
+  height: 160px;
+  background: url(../source/image/最顶端banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 640px;
+  height: 117px;
+  background: url(../source/image/中国一带一路建设网.png) no-repeat left bottom;
+  float: left;
+  margin-top: 25px;
+}
+.titleNav{
+  width: 560px;
+  height: 100%;
+  float: right;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 530px;
+  height: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.titleBlue>li{
+  float: left;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 320px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+/*搜索框横栏*/
+.searchHeng{
+  width: 1200px;
+  height: 42px;
+  margin: 0px auto;
+}
+.search{
+  width: 310px;
+  height: 26px;
+  margin-top: 5px;
+  padding-left: 30px;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  color: #999;
+  background: url(../source/image/搜索.png) no-repeat left center;
+}
+/*语言一栏*/
+.language{
+  width: 700px;
+  height: 100%;
+  float: right;
+  margin-right: 10px;
+  line-height: 42px;
+}
+.language>li{
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #616161;
+}
+.yunshu{
+  width: 100%;
+  height: 60px;
+  /* background: #76c1f5; */
+  border-bottom: 1px solid #ccc;
+}
+.yunshu>ul{
+  width: 1200px;
+  height: 58px;
+  margin: 0px auto;
+}
+.yunshuli{
+  float: left;
+  text-align: center;
+  width: 120px;
+  height: 100%;
+  line-height: 58px;
+  font-size: 22px;
+  color: #022d73;
+  cursor: pointer;
+}
+.liclass{
+  /* background: #0080de;
+  color: #fff; */
+  border-bottom: 2px solid #0081de;
+}
+/* 运输部分 */
+.yunshuWrap{
+  width: 1200px;
+  margin: 0px auto;
+}
+.highSearch{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+.highSearch>input{
+  float: left;
+  width: 290px;
+  height: 50px;
+  border: 1px solid #d2d2d2;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #999;
+  border-radius: 4px;
+}
+.highSearch>input:nth-of-type(1){
+  margin-left: 0px;
+}
+.highSearchButton{
+  float: right;
+  width: 180px;
+  height: 50px;
+  background: url(../source/image/highSearch.jpg);
+  cursor: pointer;
+}
+.tableDiv{
+  width: 1200px;
+  height: 450px;
+}
+.one{
+  width: 73px;
+  color: #666;
+}
+.two{
+  width: 195px;
+  color: #666;
+}
+.three{
+  width: 190px;
+  color: #666;
+}
+.four{
+  width: 160px;
+  color: #666;
+}
+.five{
+  width: 180px;
+  color: #666;
+}
+.six{
+  width: 125px;
+  color: #666;
+}
+.seven{
+  width: 100px;
+  color: #666;
+}
+.eight{
+  width: 90px;
+  color: #666;
+}
+.nine{
+  width: 85px;
+  color: #0080de;
+  cursor: pointer;
+}
+.tableTitle{
+  width: 1200px;
+  height: 50px;
+  background: #626262;
+  margin-top: 50px;
+  text-align: center;
+}
+.tableTitle>li{
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+.tableline{
+  width: 1200px;
+  height: 49px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #d2d2d2
+}
+.tableline>li{
+  float: left;
+  line-height: 49px;
+  text-align: center;
+  font-size: 16px;
+}
+.fenye{
+  width: 1200px;
+  height: 50px;
+  margin: 30px auto;
+  background: #eee;
+}

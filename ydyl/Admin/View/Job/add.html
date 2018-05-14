@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>金诺华后台管理</title>
+
+
+
+		<meta name="keywords" content="金诺华后台管理" />
+		<meta name="description" content="金诺华后台管理" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="__PUBLIC__/assets/js/html5shiv.js"></script>
+		<script src="__PUBLIC__/assets/js/respond.min.js"></script>
+		<![endif]-->
+
+
+		
+
+
+
+		<script type="text/javascript">
+        window.UEDITOR_HOME_URL='__ROOT__/Data/ueditor/';
+        window.onload=function(){
+            window.UEDITOR_CONFIG.initialFrameHeight=600;
+            UE.getEditor('content');
+        }
+     </script>
+
+	</head>
+
+	<body>
+
+		<!-- 加载编辑器的容器 -->
+    <script id="container" name="content" type="text/plain">
+        这里写你的初始化内容
+    </script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.all.js"></script>
+		
+		<include file='Common:head'/>
+
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+				
+				<include file='Common:left'/>
+
+				
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">金诺华后台</a>
+							</li>
+
+							<li>
+								<a href="#">招聘管理</a>
+							</li>
+							<li class="active">添加招聘岗位</li>
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+							 	<div class="content col-md-12 col-sm-12">
+						            <div class="panel panel-primary">
+						                <div class="panel-heading">
+						                    <h3 class="panel-title">添加招聘岗位</h3>
+						                </div>
+							            
+							            <div class="table-responsive">
+							             	<div class="container-fluid">
+											    <div class="row-fluid">
+											        <div class="span12">							
+											            <form action="{:U(GROUP_NAME.'/Job/addJob')}" method="post" enctype="multipart/form-data">
+												            <table class="table table-hover">
+												                <!--<thead>
+												                    <tr colspan='2'>
+												                        <th>发布博文</th>      							        
+												                    </tr>
+												                </thead>-->
+												                <tbody>
+												                    					             			                 												                    
+												                    <tr class="news_people" >
+												                        <td align=right>所属部门：</td>
+												                        <td colspan="2">
+												                        	
+												                            <select class="news_class" name='type' style="width: 500px;">
+												                            
+												                              <foreach name='type' item='v'>
+
+                               <option value='{$v.name}'>{$v.name}</option> 
+                               
+
+                               </foreach>
+												                           </select>
+												                        </td>
+												                        </td>
+												                    </tr>												                    												                   
+																																														                    
+												                    <tr class="news_header" >
+												                        <td align=right>招聘岗位：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="name" >
+												                        </td>
+												                    </tr>
+																	
+																	<tr class="news_key" >
+												                        <td align=right>招聘数量：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="number" value='' >
+												                        </td>
+												                    </tr>
+												                   
+																	<tr class="news_key" >
+												                        <td align=right>工作地点：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="workwhere" value='' >
+												                        </td>
+												                    </tr>
+												
+
+									
+
+
+												                   
+															<tr class="news_content" >											     
+												                    <td align=right>职位描述：</td>                   
+												                        <td colspan='2'>
+												             <textarea name='des' style="width:600px;height:300px;"></textarea>							                        
+												                        </td>
+												                    </tr>	
+															<tr class="news_content" >											     
+												                    <td align=right>职位要求：</td>                   
+												                        <td colspan='2'>
+												             <textarea name='ask' style="width:600px;height:300px;"></textarea>							                        
+												                        </td>
+												                    </tr>						
+
+
+
+
+												                    						                        							                  						
+												                    <tr class="danger">
+												                        <td colspan="2" align="center">		
+
+												                        	<input  type="submit" class="btn btn-primary btn-lg" value="添加招聘岗位"></input>		          																		                           
+												                        </td>							                        							                        
+												                    </tr>							                    
+												                </tbody>
+												            </table>							
+												        </form>
+											        </div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>										         
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+				
+				<include file='Common:right'/>
+				
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/assets/js/jquery-2.0.3.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+		<script>
+			$(function(){
+				$('.nav-list>li').eq(5).addClass('open');
+				$('.nav-list>li').eq(5).addClass('active');
+				/*$('.nav-list>li>.submenu').eq(3).slideDown();*/
+				
+				$('#submit').click(function(){
+					//alert(1);
+					if($('.news_class').val()==""){
+						alert("请输入所属分类");
+						return false;
+					}else if($('.news_people input').val()==""){
+						alert("请输入编辑人");
+						return false;
+					}else if($('.news_header input').val()==""){
+						alert("请输入标题");
+						return false;
+					}else if($('.news_key input').val()==""){
+						alert("请输入关键词");
+						return false;
+					}else if($('.news_summary input').val()==""){
+						alert("请输入摘要");
+						return false;
+					}else if($('.news_content textarea').val()==""){
+						alert("请输入内容");
+						return false;
+					}
+				})
+			})
+			
+			
+			
+			
+		</script>
+		
+
+		<!-- inline scripts related to this page -->
+	
+</body>
+</html>

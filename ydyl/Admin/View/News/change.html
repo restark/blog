@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>ydyl后台管理</title>
+
+
+
+		<meta name="keywords" content="ydyl后台管理" />
+		<meta name="description" content="ydyl后台管理" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="__PUBLIC__/assets/js/html5shiv.js"></script>
+		<script src="__PUBLIC__/assets/js/respond.min.js"></script>
+		<![endif]-->
+
+
+
+
+
+
+		<script type="text/javascript">
+        window.UEDITOR_HOME_URL='__ROOT__/Data/ueditor/';
+        window.onload=function(){
+            window.UEDITOR_CONFIG.initialFrameHeight=600;
+            UE.getEditor('content');
+        }
+     </script>
+
+	</head>
+
+	<body>
+
+		<!-- 加载编辑器的容器 -->
+    <script id="container" name="content" type="text/plain">
+        这里写你的初始化内容
+    </script>
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__ROOT__/Data/ueditor/ueditor.all.js"></script>
+
+		<include file='Common:head'/>
+
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+
+				<include file='Common:left'/>
+
+
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">ydyl后台</a>
+							</li>
+
+							<li>
+								<a href="#">新闻管理</a>
+							</li>
+							<li class="active">修改新闻</li>
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+							 	<div class="content col-md-12 col-sm-12">
+						            <div class="panel panel-primary">
+						                <div class="panel-heading">
+						                    <h3 class="panel-title">修改新闻</h3>
+						                </div>
+
+							            <div class="table-responsive">
+							             	<div class="container-fluid">
+											    <div class="row-fluid">
+											        <div class="span12">
+											            <form action="{:U('Admin/News/dochange')}" method="post" enctype="multipart/form-data">
+											            <input type="hidden" name='id' value="{$id}"></input>
+												            <table class="table table-hover">
+												                <!--<thead>
+												                    <tr colspan='2'>
+												                        <th>发布博文</th>
+												                    </tr>
+												                </thead>-->
+												                <tbody>
+																					<tr>
+																							<td align=right width=30%>新闻所属分类(若修改请在下面选择)：</td>
+																							<td colspan="2">
+																								<div style="width:200px,height:30px,float:left" id
+																								="firstDiv" name="onetype">
+
+																							</div>
+																								<div style="width:200px,height:30px,float:left" id="secondDiv" name="twotype">
+
+																								</div>
+																							</td>
+																					</tr>
+												                    <tr>
+												                        <td align=right width=30%>新闻所属分类：</td>
+												                        <td colspan="2">
+																									<select style="width:200px" id
+																									="firstSelect" name="onetype">
+																										<option value="">请选择大第一类别</option>
+																									</select>
+																									<select style="width:200px" id="secondSelect" name="twotype">
+																										<option value="">请选择第二类别</option>
+																									</select>
+												                        </td>
+												                    </tr>
+												                    <tr class="news_header" >
+												                        <td align=right>新闻标题：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="title" value="{$new.title}">
+												                        </td>
+												                    </tr>
+
+												                    <tr class="news_header" >
+												                        <td align=right>新闻摘要：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="describe" value="{$new.newsdescribe}">
+												                        </td>
+												                    </tr>
+
+												                    <tr class="news_people" >
+												                        <td align=right>编辑人：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="editorname" value='{$new.editorname}' >
+												                        </td>
+												                    </tr>
+
+
+
+																	<tr class="news_key" >
+												                        <td align=right>文章来源：</td>
+												                        <td>
+												                        	<input style="width:500px;" type="text" name="comefrom" value='{$new.comefrom}' >
+												                        </td>
+												                    </tr>
+
+
+
+
+
+
+
+												                    <tr class="news_people" >
+												                        <td align=right>新闻页头图：</td>
+												                        <td>
+
+    <input name="photo[]" type="file" value="{$new.himg}" /><a href="" id="oldimg" target="_blank">点击查看原新闻页头图</a>
+												                        </td>
+												                    </tr>
+																						<!-- 单选框及位置 -->
+																						<tr class="news_key" >
+																	                        <td align=right>是否上传视频：</td>
+																	                        <td>
+																	                        	<input class="yesnot" style="width:50px;" type="checkbox" name="isvideo" value='1' >
+																														<select name="left" id="videoWeizhi">
+																															<option value="">请选择视频位置</option>
+																															<option value="0">非轮播视频</option>
+																															<option value="1">轮播视频</option>
+																														</select>
+																	                        </td>
+																	                    </tr>
+
+																											<tr style="visibility:hidden" id="video" class="news_video" >
+				  												                        <td align=right>视频上传：</td>
+				  												                        <td>
+				     																		 	<input name="photo[]" type="file" value="{$new.videopath}" />
+				  												                        </td>
+				  												                    </tr>
+
+
+
+
+
+
+												                    <tr class="news_content" >
+												                        <td colspan='2'>
+												             <textarea style="width:100%; height:500px; display: block; margin: 0 auto;" id='content' name='message'>{$new.message}</textarea>
+												                        </td>
+												                    </tr>
+												                    <tr class="danger">
+												                        <td colspan="2" align="center">
+
+												                        	<input  type="submit" class="btn btn-primary btn-lg" value="修改新闻"></input>
+												                        </td>
+												                    </tr>
+												                </tbody>
+												            </table>
+												        </form>
+											        </div>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+
+				<include file='Common:right'/>
+
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/assets/js/jquery-2.0.3.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+		<script>
+			$(function(){
+				$('.nav-list>li').eq(2).addClass('open');
+				$('.nav-list>li').eq(2).addClass('active');
+				$('.nav-list>li>.submenu').eq(2).slideDown();
+
+				$('#submit').click(function(){
+					//alert(1);
+					if($('.news_class').val()==""){
+						alert("请输入所属分类");
+						return false;
+					}else if($('.news_people input').val()==""){
+						alert("请输入编辑人");
+						return false;
+					}else if($('.news_header input').val()==""){
+						alert("请输入标题");
+						return false;
+					}else if($('.news_content textarea').val()==""){
+						alert("请输入内容");
+						return false;
+					}
+				})
+			})
+			$('.yesnot').on("click",function () {
+				var yesnot = $('.yesnot').prop('checked');
+				console.log(yesnot);
+				if(yesnot == true){
+					$("#video").css("visibility","visible");
+				}else{
+					$("#video").css("visibility","hidden").attr("disabled","disabled");
+				}
+			})
+
+
+
+		</script>
+		<script type="text/javascript">
+			$.ajax({
+				url:"{:U('Admin/News/type')}",
+				success:function (msg) {
+					var msg = JSON.parse(msg);
+					console.log(msg);
+					var firstSelect = $("#firstSelect");
+					var secondSelect = $("#secondSelect");
+					for(var first of msg){
+						var option1 = $("<option value="+ first.id +"></option>");
+						option1.html(first.name);
+						firstSelect.append(option1);
+					}
+					firstSelect.on("change",function () {
+						var firstVal = firstSelect.val();
+						for(var first of msg){
+							console.log(first);
+							if(firstVal == first.id){
+								secondSelect.empty();
+								for(var second of first.next){
+									var option3 = $("<option value="+ second.id +"></option>");
+									option3.html(second.name);
+									secondSelect.append(option3);
+								}
+							}
+						}
+					})
+
+					var urlid = window.location.href;
+					var index = urlid.lastIndexOf("\/");
+					urlid  = urlid .substring(index + 1, urlid.length);
+					var url = urlid.split(".");
+					var id = url[0];
+					console.log(id);
+					var id = {
+						"id":id
+					}
+					$.ajax({
+						url:"{:U('Admin/News/changemessage')}",
+						data:id,
+						dataType:"json",
+						type:'get',
+						success:function (msg) {
+							console.log(msg);
+							console.log(msg.onetype);
+							// var option = $("#firstSelect option").each(function () {
+							// 	console.log($(this).val());
+							// 	if($(this).val() == msg.onetype){
+							// 		$(this).attr("selected","selected")
+							// 	}
+							// })
+							$("#oldimg").attr("href",msg.himg);
+							$("#firstDiv").text("一级类别:"+msg.onetype+"");
+							$("#secondDiv").text("二级类别:"+msg.twotype+"");
+							if(msg.isvideo == 1){
+								$(".yesnot").attr("checked","checked");
+								$("#video").css("visibility","visible");
+								if(msg.isleft == 0){
+									$("#videoWeizhi").val("0")
+								}else if(msg.isleft == 0){
+									$("#videoWeizhi").val("1")
+								}
+							};
+						}
+					})
+
+				}
+			})
+
+
+		</script>
+
+		<!-- inline scripts related to this page -->
+
+</body>
+</html>

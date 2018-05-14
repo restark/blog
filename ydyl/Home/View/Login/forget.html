@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>一带一路产业大联盟</title>
+  <link rel="stylesheet" href="__PUBLIC__/source/libs/reset.css">
+  <link rel="stylesheet" href="__PUBLIC__/css/login/zhaohui.css">
+  <script type="text/javascript" src="__PUBLIC__/source/libs/jquery.js"></script>
+</head>
+<body>
+  <!-- 一带一路建设网标题 -->
+  <div class="oneTitle clear">
+    <!-- 标题图片 -->
+    <div class="titleImage"></div>
+    <div class="titleNav">
+      <!-- 一带一路一行导航 -->
+      <ul class="titleBlue">
+        <li><a href="http://www.cupoftea.cn">中国一带一路建设网首页</a></li>
+      </ul>
+      <ul class="titleBlack">
+        <li><a href="/Home/Login/index.html">登录</a></li>
+        <li>&</li>
+        <li><a href="/Home/Login/register.html">注册</a></li>
+        <li>&</li>
+        <li><a href="/Home/Login/juyuwang.html">局域网</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 蓝色横线 -->
+  <hr style=" height:2px;border:none;border-top:2px solid #007fdd;">
+  <!-- 注册登录模块 -->
+  <div class="login">
+    <!-- 广告 -->
+    <div class="loginAd"></div>
+    <div class="denglu">
+      <p class="denglup">&nbsp;修改密码</p>
+      <input type="text" class="phone" placeholder="请输入您的手机号">
+      <div class="yanzheng">
+        <input class="yanzhengma" type="text" placeholder="请输入您的验证码">
+        <div class="fasong">发送验证码</div>
+      </div>
+      <input type="password" class="pwd" placeholder="请输入您的新密码">
+      <div class="tishi">
+        <span class="error">您输入的账号或验证码错误，请重新输入</span>
+      </div>
+      <div class="loginSure">保存并登录</div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+  $(function () {
+    var validCode=true;
+    $(".fasong").on("click",function () {
+      var code = $(this);
+      var time=60;
+      var phone = $(".phone").val();
+      if(phone != ""){
+        if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(phone))){
+            alert("不是完整的11位手机号");
+            return false;
+        }else{
+          var dat = {
+            "phone":phone
+          };
+          console.log(dat);
+          $.ajax({
+            url:"http://www.cupoftea.cn/Home/Login/sendforget",
+            data:dat,
+            dataType:"json",
+            type:"get",
+            success:function (msg) {
+              var data = msg;
+	                if(data==0){
+	                    alert('发送失败，请重新点击发送');
+	                }else if(data==1){
+				  		    //发送验证码
+			           	  if (validCode) {
+  				           	validCode=false;
+  			               	var t=setInterval(function(){
+  				           		time--;
+  				           		code.html(time+"秒");
+  				           		if (time==0) {
+  					       			clearInterval(t);
+  				           			code.html("重新获取");
+  					       			  validCode=true;
+          								}
+          							},1000)
+          						}
+  	                }else if(data==3){
+          					  alert('验证码错误');
+          					}else if(data==4){
+                      alert("手机号已存在");
+                    }
+	            }
+          })
+        }
+      }else{
+        alert("请填写手机号")
+      }
+    })
+    $(".loginSure").on("click",function () {
+      var phone = $(".phone").val();
+      var yanzhengma = $(".yanzhengma").val();
+      var pwd = $(".pwd").val();
+      var error = $(".error")
+      if(phone != "" && yanzhengma != "" && pwd != ""){
+        if(!(/^[\w]{8,12}$/.test(pwd))){
+            $(".error").css("visibility","visible");
+            return false;
+        }else{
+          var dat = {
+            "phone":phone,
+            "code":yanzhengma,
+            "password":pwd
+          }
+          console.log(dat);
+          $.ajax({
+            url:"http://www.cupoftea.cn/Home/Login/repass",
+            data:dat,
+            dataType:"json",
+            type:"post",
+            success:function (msg) {
+              console.log(msg);
+              if(msg == 1){
+                window.location.href = "http://www.cupoftea.cn";
+              }else if(msg == 3){
+                alert("与接收短信号码不一致");
+              }else if(msg == 4){
+                error.css("visibility","visible")
+              }else if(msg == 0) {
+                alert("修改失败");
+              }
+            }
+          })
+        }
+      }else{
+        alert("请将手机号和验证码补充完整");
+      }
+    })
+  })
+</script>

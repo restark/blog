@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>一带一路后台管理 新闻类别管理</title>
+		<meta name="keywords" content="一带一路后台管理 新闻类别管理" />
+		<meta name="description" content="一带一路后台管理 新闻类别管理" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- basic styles -->
+		<link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<!-- fonts -->
+
+		<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" /> -->
+
+		<!-- ace styles -->
+
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="__PUBLIC__/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+
+		<script src="__PUBLIC__/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="__PUBLIC__/assets/js/html5shiv.js"></script>
+		<script src="__PUBLIC__/assets/js/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			.leibieWrap{
+				width: 800px;
+			}
+			.lineTwo{
+				width: 500px;
+				float: right;
+			}
+			.twotitle{
+				width: 210px;
+				height: 30px;
+				margin-top: 10px;
+			}
+			.titletwo{
+				width:150px;
+				height: 30px;
+				line-height: 30px;
+				border: 1px solid #ccc;
+				font-size: 16px;
+				color: #333;
+				text-align: center;
+				cursor: pointer;
+				float: left;
+			}
+			#leibie{
+				width: 210px;
+				float: left;
+			}
+			.leizong,.yiji{
+				width: 210px;
+				height: 30px;
+				margin-top: 10px;
+			}
+			.yiji{
+				font-size: 16px;
+				color: #333;
+			}
+			.leibieone{
+				width:150px;
+				height: 30px;
+				line-height: 30px;
+				border: 1px solid #ccc;
+				font-size: 16px;
+				color: #333;
+				text-align: center;
+				cursor: pointer;
+				float: left;
+			}
+			.delete{
+				float: right;
+				width: 50px;
+				height: 30px;
+				font-size: 16px;
+				color: #0080de;
+				line-height: 30px;
+				text-align: center;
+				cursor: pointer;
+				float: right;
+			}
+			.tianjia{
+				width: 210px;
+				/* height: 30px; */
+				/* float: left; */
+			}
+			#addone{
+				width: 150px;
+				height: 30px;
+				margin-top: 30px;
+				text-align: center;
+				font-size: 16px;
+				color: #333;
+				text-align: center;
+			}
+			#addonebutton{
+				width: 150px;
+				height: 30px;
+				color: #fff;
+				font-size: 16px;
+				background: #438eb9;
+				margin-top: 10px;
+				text-align: center;
+				line-height: 30px;
+				cursor: pointer;
+			}
+			.tianjia1{
+				width: 210px;
+				/* height: 30px; */
+				/* float: left; */
+			}
+			#addone1{
+				width: 150px;
+				height: 30px;
+				margin-top: 30px;
+				text-align: center;
+				font-size: 16px;
+				color: #333;
+				text-align: center;
+			}
+			#addonebutton1{
+				width: 150px;
+				height: 30px;
+				color: #fff;
+				font-size: 16px;
+				background: #438eb9;
+				margin-top: 10px;
+				text-align: center;
+				line-height: 30px;
+				cursor: pointer;
+			}
+			.oneColor{
+				background: #438eb9;
+				color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<include file='Common:head'/>
+
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+
+				<include file='Common:left'/>
+
+
+
+				<div class="main-content">
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+							try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="icon-home home-icon"></i>
+								<a href="#">ydyl后台</a>
+							</li>
+
+							<li>
+								<a href="#">新闻管理</a>
+							</li>
+							<li class="active">新闻类别</li>
+						</ul><!-- .breadcrumb -->
+
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- #nav-search -->
+					</div>
+
+
+
+					<div class="page-content">
+						<div class="row">
+							<div class="col-xs-12">
+									<!-- 类别按钮---------------------------------------------------- -->
+								<div class="leibieWrap">
+									<div id="leibie">
+										<div class="yiji">一级类别</div>
+										<!-- <div class="leizong">
+											<div class="leibieone"></div><span class="delete">删除</span>
+										</div> -->
+										<div class="tianjia">
+											<input id="addone" type="text" placeholder="请输入类别">
+											<div id="addonebutton">添加</div>
+										</div>
+									</div>
+									<!-- 对应二级列表 -->
+									<div class="lineTwo">
+										<div class="yiji">二级类别</div>
+										<!-- <div class="twotitle">
+											<div class="titletwo">时政新闻</div>
+											<span class="delete">删除</span>
+										</div> -->
+										<div class="tianjia1">
+											<input id="addone1" type="text" placeholder="请输入类别">
+											<div id="addonebutton1">添加</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.page-content -->
+				</div><!-- /.main-content -->
+
+
+				<include file='Common:right'/>
+
+
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<script src="__PUBLIC__/assets/js/jquery-2.0.3.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='__PUBLIC__/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+		<script src="__PUBLIC__/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!-- ace scripts -->
+
+		<script src="__PUBLIC__/assets/js/ace-elements.min.js"></script>
+		<script src="__PUBLIC__/assets/js/ace.min.js"></script>
+		<script>
+			$.ajax({
+				url:"{:U('Admin/News/onetype')}",
+				success:function (msg) {
+					var msg = JSON.parse(msg);
+					console.log(msg);
+					var tianjia = $(".tianjia");
+					for(var data of msg){
+						var leizong = $("<div class='leizong'><div class='leibieone' leibieid="+ data.id +">"+ data.name +"</div><span class='delete' leibieid="+ data.id +">删除</span></div>");
+						leizong.insertBefore(tianjia);
+					}
+					// 删除一级目录
+					$(".delete").on("click",function () {
+						var id = $(this).attr("leibieid");
+						var that = $(this);
+						console.log(id);
+						$.ajax({
+							url:"{:U('Admin/News/delonetype')}",
+							data:{"id":id},
+							dataType:"json",
+							type:"post",
+							success:function (msg) {
+								if(msg == 1){
+									window.location.reload();
+								}
+							}
+						})
+					})
+
+					// 点击一级目录请求二级目录数据
+					$(".leibieone").on("click",function () {
+						$(".leibieone").removeClass("oneColor");
+						$(this).addClass("oneColor");
+						$(".twotitle").remove();
+						var oneid = $(this).attr("leibieid");
+						console.log(oneid);
+						$.ajax({
+							url:"{:U('Admin/News/twotype')}",
+							data:{"id":oneid},
+							dataType:"json",
+							type:"post",
+							success:function (msg) {
+								var msg = msg.data;
+								console.log(msg);
+								var tianjia1 = $(".tianjia1");
+								$(".lineTwo").attr("oneid",oneid)
+								for(var two of msg){
+									var twoTitle = $('<div class="twotitle">'
+										+'<div class="titletwo">'+ two.name +'</div>'
+										+'<span class="delete" twoid='+ two.id +'>删除</span>'
+									+'</div>').insertBefore(tianjia1);
+								}
+
+								// 删除二级目录
+								$(".delete").on("click",function () {
+									var id = $(this).attr("twoid");
+									var that = $(this);
+									console.log(id);
+									$.ajax({
+										url:"{:U('Admin/News/deltwotype')}",
+										data:{"id":id},
+										dataType:"json",
+										type:"post",
+										success:function (msg) {
+											if(msg == 1){
+												that.parent().remove();
+											}
+										}
+									})
+								})
+							}
+						})
+					})
+				}
+			})
+			// 添加一级类别
+			$('#addonebutton').on("click",function () {
+				var onetitle = $("#addone").val();
+				if(onetitle == ""){
+					alert("请输入类别");
+				}else{
+					$.ajax({
+						url:"{:U('Admin/News/addonetype')}",
+						data:{"name":onetitle},
+						dataType:"json",
+						type:"post",
+						success:function (msg) {
+							if(msg == "1"){
+								window.location.reload();
+							}else{
+								alert("添加失败，请稍后重试");
+							}
+						}
+					})
+				}
+			})
+			// 添加二级菜单
+			$("#addonebutton1").on("click",function () {
+				var addone1 = $("#addone1").val();
+				var oneid = $(".lineTwo").attr("oneid");
+				if(addone1 == ""){
+					alert("请输入类别");
+				}else{
+					$.ajax({
+						url:"{:U('Admin/News/addtwotype')}",
+						type:"post",
+						data:{
+							"name":addone1,
+							"id":oneid
+						},
+						dataType:"json",
+						success:function (msg) {
+							if(msg == 1){
+								window.location.reload();
+							}else{
+								alert("添加失败，请稍后重试");
+							}
+						}
+					})
+				}
+			})
+
+		</script>
+
+		<!-- inline scripts related to this page -->
+	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

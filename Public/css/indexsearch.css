@@ -1,0 +1,295 @@
+@charset "UTF-8";
+.daohang{
+  width: 100%;
+  min-height: 90px;
+  background: #0080de;
+}
+.daohangNav{
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+}
+.daohangNav>li{
+  float: left;
+  margin-left: 20px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 2px solid #0080de;
+}
+.daohangNav>li:hover{
+  border-bottom: 2px solid #fff;
+}
+.daohangNav>li>a{
+  color: #fff;
+  font-size: 17px;
+}
+.daohangNav>.more{
+  float:left;
+  width: 70px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+/*一带一路建设网标题*/
+.oneTitle{
+  width: 1200px;
+  height: 166px;
+  margin: 0px auto;
+}
+/*标题图片*/
+.titleImage{
+  width: 640px;
+  height: 117px;
+  background: url(../source/image/中国一带一路建设网.png);
+  float: left;
+  margin-top: 25px;
+}
+.titleNav{
+  width: 560px;
+  height: 100%;
+  float: right;
+}
+/*蓝色标题*/
+.titleBlue{
+  width: 530px;
+  height: 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.titleBlue>li{
+  float: left;
+  margin-left: 16px;
+}
+.titleBlue>li>a{
+  color: #007fde;
+  font-size: 14px;
+}
+/*登录*/
+.titleBlack{
+  width: 240px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 320px;
+}
+.titleBlack>li{
+  float: left;
+  margin-left: 8px;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+}
+/* 主题内容 */
+.mainWrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+.mainWrapLeft{
+  width: 710px;
+  float: left;
+}
+.searchSearch{
+  margin-top: 30px;
+  width: 100%;
+}
+.inputSelect{
+  float:left;
+  width: 548px;
+  height: 48px;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+.inputSelect>input{
+  width: 527px;
+  height: 46px;
+  padding-left: 21px;
+  border: none;
+  /* border-right: 1px solid #d2d2d2; */
+  font-size: 18px;
+  color: #676767;
+}
+.inputSelect>select{
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #676767;
+  border: none;
+  text-align:center;
+}
+.searchButton{
+  width: 140px;
+  height: 50px;
+  background: url(../source/image/search.jpg);
+  float: right;
+  cursor: pointer;
+}
+/* 搜索新闻 */
+.searchNewDet{
+  width: 100%;
+  margin-top: 40px;
+}
+.searchDetial{
+  width: 100%;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.searchDetialTitle{
+  width: 100%;
+  color: #333;
+  font-size: 24px;
+  line-height: 32px;
+}
+.searchDetialWrap{
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666;
+}
+.searchTime{
+  width: 100%;
+  margin-top: 30px;
+}
+.searchTime>span{
+  float: right;
+}
+.imgVideo{
+  width: 50px;
+  height: 24px;
+  background: #14b7af;
+  border-radius: 50px;
+  margin-left: 5px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+.timeDate{
+  font-size: 16px;
+  color: #999999;
+  margin-left: 3px;
+}
+.timeTitle{
+  font-size: 16px;
+  color: #999999;
+  margin-left: 3px;
+}
+.mokuai{
+  font-size: 16px;
+  color: #999999;
+}
+.moreShow{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #007fde;
+  cursor: pointer;
+}
+/* 右侧 */
+.mainNewRight{
+  width: 450px;
+  float: right;
+  margin-top:10px;
+}
+.secondNav{
+  width: 100%;
+  height: 605px;
+  margin-top: 50px;
+}
+.secondNav:first-child{
+  margin-top: 10px;
+}
+.secondTitle{
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #0081de;
+  font-size: 26px;
+  color: #0081e1;
+  line-height: 45px;
+}
+.secondImg{
+  width: 450px;
+  height: 280px;
+  background: #eee;
+  margin-top: 26px;
+  overflow:hidden;
+}
+.secondImgDes{
+  width: 410px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  background: rgba(0,146,255,0.8);
+  margin-top: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.secondNew{
+  width: 100%;
+  height: 240px;
+  margin-top: 24px;
+}
+.secondNew>li{
+  height: 40px;
+  line-height: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  list-style: disc;
+  list-style-position: inside;
+}
+.secondNew>li>a{
+  font-size: 18px;
+  color: #666;
+}
+/* 广告位 */
+.smallAd{
+  width: 100%;
+  height: 180px;
+  background: #eee;
+  margin-top: 60px;
+}
+/* 最下面备案部分 */
+.beian{
+  width: 100%;
+  height: 190px;
+  background: #014b83;
+  margin-top: 30px;
+}
+.beianWrap{
+  width: 1200px;
+  height: 190px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+.beianOne{
+  margin-top: 74px;
+}
+.beianTwo{
+  margin-top: 15px;
+}
+.erweima{
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  background: #eee;
+  margin-top: -60px;
+}
