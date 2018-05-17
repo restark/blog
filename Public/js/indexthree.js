@@ -42,7 +42,7 @@ $(function () {
       if(news.videopath.length>=15){
         var detialVideo = $('<div class="newsImg"><video src="http://www.cupoftea.cn'+ news.videopath +'"' +'controls="controls" width="710px" height="370px">'
           +'您的浏览器不支持视频播放，请更换升级或更换浏览器'
-        +'</video></div>').prepend($(".contentWrap"));
+        +'</video></div>').appendTo($(".newVideo"));
       }
 
       // 底部查看更多部分

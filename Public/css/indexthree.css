@@ -166,10 +166,14 @@
   padding-bottom: 50px;
 }
 /* 详细新闻 */
-.newsImg{
+/* .newsImg{
   width: 710px;
   height: 370px;
   background: #eee;
+  margin-top: 24px;
+} */
+.newVideo{
+  width: 710px;
   margin-top: 24px;
 }
 .contentWrap{

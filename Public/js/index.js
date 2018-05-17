@@ -111,7 +111,7 @@ $(function() {
         //     }
         // })
         for(var i=0; i<twoPageTitle.length; i++){
-            console.log($(twoPageTitle[i]).text());
+            // console.log($(twoPageTitle[i]).text());
               // for(var data of msg){
               for(var j=0; j<msg.length; j++){
                 if($(twoPageTitle[i]).text() == msg[j].name){
@@ -129,7 +129,7 @@ $(function() {
                     "backgroundSize":"100% 100%"
                   })
                   var msg1 = msg[j].news.slice(1);
-                  console.log(msg1);
+                  // console.log(msg1);
                   // for(var msg2 of msg1){
                   for(var k=0; k<msg1.length; k++){
                     var li = $('<li><div><a href="Home/Index/indexthree?id='+ msg1[k].id +'" target="_blank">'+ msg1[k].title +'</a></div><span>'+ msg1[k].intime +'</span></li>').appendTo($(twoPageTitle[i]).parent().next().next());
@@ -191,30 +191,63 @@ $(function() {
       }
 
       var left = msg.left;
-      // for(var video of left){
-      for(var i=0; i<left.length; i++){
-        var lunboDiv = $('<div class="swiper-slide swiper-slide1" style="height:100px"><video src="http://www.cupoftea.cn/'+ left[i].videopath +'" controls="controls" width="140px" height="100px" videoTitle="'+ left[i].title +'"></video></div>').appendTo($(".swiper-container2 .swiper-wrapper"));
-      }
-      var swiper = new Swiper('.swiper-container2', {
-            prevButton:'.swiper-button-prev1',
-    		    nextButton:'.swiper-button-next1',
-            slidesPerView: 4,
-            paginationClickable: true,
-            spaceBetween: 30,
-            freeMode: true
-        });
-
-        $(".biglunbo>video").attr("src","http://www.cupoftea.cn/"+ left[0].videopath +"");
-        $(".biglunbo>.biglunboDes").text(left[0].title);
-
-        $(".swiper-slide1").on("click",function () {
-          $(".biglunbo>.biglunboDes").text($(this).children().attr("videoTitle"));
-          var src = $(this).children().attr("src");
-          $(".biglunbo>video").attr({
-            "src":src,
-            "autoplay":"autoplay"
-          });
+      console.log(left);
+      $('.bigImage').css({
+        "backgroundImage":"url(http://www.cupoftea.cn"+ left[0].himg +")",
+        "backgroundSize":"100% 100%"
+      })
+      $(".biglunboDes").html(left[0].title);
+      $(".lianjie").attr({
+        "href":"Home/Index/indexthree?id="+ left[0].id+"",
+        "target":"_blank"
+      });
+      var leftOther = left.slice(1);
+      console.log(leftOther);
+      for(var k=0; k<leftOther.length; k++){
+        var smallImage = $('<div class="smallImage" xinwen="'+ leftOther[k].id +'" id="smallImage'+ leftOther[k].id +'" image="'+ leftOther[k].himg +'" title="'+ leftOther[k].title +'"></div>').appendTo($(".smalllunbo"));
+        $("#smallImage"+ leftOther[k].id +"").css({
+          "backgroundImage":"url(http://www.cupoftea.cn"+ leftOther[k].himg +")",
+          "backgroundSize":"100% 100%"
         })
+      }
+      $(".smallImage").on("click",function(){
+        var title = $(this).attr("title");
+        var image = $(this).attr("image");
+        var lian = $(this).attr("xinwen");
+        $('.bigImage').css({
+          "backgroundImage":"url(http://www.cupoftea.cn"+ image +")",
+          "backgroundSize":"100% 100%"
+        })
+        $(".biglunboDes").html(title);
+        $(".lianjie").attr({
+          "href":"Home/Index/indexthree?id="+ lian +"",
+          "target":"_blank"
+        });
+      })
+      // // for(var video of left){
+      // for(var i=0; i<left.length; i++){
+      //   var lunboDiv = $('<div class="swiper-slide swiper-slide1" style="height:100px"><video src="http://www.cupoftea.cn/'+ left[i].videopath +'" controls="controls" width="140px" height="100px" videoTitle="'+ left[i].title +'"></video></div>').appendTo($(".swiper-container2 .swiper-wrapper"));
+      // }
+      // var swiper = new Swiper('.swiper-container2', {
+      //       prevButton:'.swiper-button-prev1',
+    	// 	    nextButton:'.swiper-button-next1',
+      //       slidesPerView: 4,
+      //       paginationClickable: true,
+      //       spaceBetween: 30,
+      //       freeMode: true
+      //   });
+      //
+      //   $(".biglunbo>video").attr("src","http://www.cupoftea.cn/"+ left[0].videopath +"");
+      //   $(".biglunbo>.biglunboDes").text(left[0].title);
+      //
+      //   $(".swiper-slide1").on("click",function () {
+      //     $(".biglunbo>.biglunboDes").text($(this).children().attr("videoTitle"));
+      //     var src = $(this).children().attr("src");
+      //     $(".biglunbo>video").attr({
+      //       "src":src,
+      //       "autoplay":"autoplay"
+      //     });
+      //   })
     }
   })
 

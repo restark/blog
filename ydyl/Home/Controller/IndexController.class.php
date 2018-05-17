@@ -59,7 +59,7 @@ class IndexController extends Controller {
         $wherel['onetype']=(int)$result['id'];
         $wherel['isleft']=1;
 
-        $msg['left']=M('news')->where($wherel)->order('id desc')->limit(6)->select();
+        $msg['left']=M('news')->where($wherel)->order('id desc')->limit(5)->select();
 
 
         $wheren['sid']=$result['id'];

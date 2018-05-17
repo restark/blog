@@ -205,6 +205,9 @@
     <div class="newMainleft">
       <div class="newDetial">
         <!-- <div class="newsImg"></div> -->
+        <div class="newVideo">
+
+        </div>
         <div class="contentWrap">
           <?php echo ($news["message"]); ?>
         </div>
