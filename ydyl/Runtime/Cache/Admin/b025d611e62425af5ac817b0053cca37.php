@@ -419,8 +419,10 @@
 																	                        	<input class="yesnot" style="width:50px;" type="checkbox" name="isvideo" value='1' >
 																														<select name="left" id="videoWeizhi">
 																															<option value="">请选择视频位置</option>
-																															<option value="0">非轮播视频</option>
-																															<option value="1">轮播视频</option>
+																															<option 
+																																<?php if($new['isleft'] == 0 ): ?>selected="selected"<?php endif; ?>
+																															 value="0">非轮播视频</option>
+																															<option <?php if($new['isleft'] == 1 ): ?>selected="selected"<?php endif; ?> value="1">轮播视频</option>
 																														</select>
 																	                        </td>
 																	                    </tr>
